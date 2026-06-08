@@ -2,31 +2,40 @@
   "updated": "2026-06-09",
   "items": [
     {
-      "id": "2026-06-02-microsoft-mai-models-foundry",
-      "date": "2026-06-02",
-      "title": "Microsoft ships its own MAI models to cut OpenAI dependence and undercut on price",
-      "summary": "Microsoft unveiled first-party models — MAI-Code-1-Flash (turns written specs into app/website source) and MAI-Thinking-1 (reasoning, private preview) — aimed squarely at reducing its reliance on OpenAI and lowering costs for developers. The real signal isn't the models themselves but the strategy: Microsoft is turning Foundry (now 11,000+ models, including GPT-5.5, Claude Opus 4.8, and Gemini) into a neutral multi-vendor layer where its own cheaper models become the default. If you build on Azure/Foundry, expect MAI defaults and downward price pressure that shifts which model you reach for.",
-      "url": "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html",
-      "source": "CNBC",
-      "tags": ["models", "microsoft", "industry", "foundry"]
+      "id": "2026-06-09-brooker-feedback-loop-hypothesis",
+      "date": "2026-06-09",
+      "title": "The Feedback Loop Hypothesis: why agents find databases easy and websites hard",
+      "summary": "Brooker argues the real limit on coding agents isn't raw model smarts but feedback: they thrive where it's fast and automatable (compilers, tests, formal specs) and flounder where it's \"slow, squishy, and inconsistent\" (UI, architecture). The counterintuitive payoff — system software is \"easy\", SaaS is \"hard\" — reframes the actual engineering work as building better feedback loops, not better prompts.",
+      "url": "https://brooker.co.za/blog/2026/05/18/whats-easy-whats-hard.html",
+      "source": "Marc Brooker",
+      "tags": ["ai", "agents", "engineering", "essay"]
     },
     {
-      "id": "2026-06-01-qwen-3-7-plus-cheap-multimodal-agent",
-      "date": "2026-06-01",
-      "title": "Qwen 3.7 Plus: frontier-adjacent multimodal agent at ~6x cheaper input than Max",
-      "summary": "Alibaba brought Qwen 3.7 Plus to GA — a multimodal model (text/image/video in) that perceives screens, operates GUIs, and writes code from visual references, at $0.40/$1.60 per 1M tokens. That's roughly 6x cheaper on input than Qwen 3.7 Max while keeping the 1M-token context window and strong coding/agentic scores, making it one of the cheapest options for vision-to-code and long-horizon agent loops. The tradeoff that matters for engineering decisions: it's proprietary, API-only (no open weights), and China-hosted — so weigh data residency and self-hosting before wiring it into a pipeline.",
-      "url": "https://qwen.ai/blog?id=qwen3.7-plus",
-      "source": "Qwen (Alibaba)",
-      "tags": ["models", "qwen", "multimodal", "agents", "cost"]
+      "id": "2026-06-09-willison-how-coding-agents-work",
+      "date": "2026-06-09",
+      "title": "How coding agents actually work",
+      "summary": "A clear, demystifying walk through what a coding agent really is: a harness around an LLM — system prompt, a tool-calling loop, token mechanics — that you could build yourself in a few dozen lines. Part of Willison's Agentic Engineering Patterns series, and the best antidote to treating agents as magic.",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/how-coding-agents-work/",
+      "source": "Simon Willison",
+      "tags": ["ai", "agents", "engineering"]
     },
     {
-      "id": "2026-05-19-gemini-3-5-flash-agentic",
-      "date": "2026-05-19",
-      "title": "Gemini 3.5 Flash beats the larger 3.1 Pro on agentic/coding benchmarks at Flash speed",
-      "summary": "Google made Gemini 3.5 Flash generally available at I/O 2026, and the notable part is that a Flash-tier model now outperforms the bigger Gemini 3.1 Pro on hard agentic and coding benchmarks — Terminal-Bench 2.1 (76.2%), MCP Atlas (83.6%) — while running at Flash latencies. That makes a fast model genuinely viable for the inner loop of coding agents and tool-heavy pipelines, not just chat. Pricing is $1.50/$9 per 1M tokens with a 90% cache discount ($0.15/1M cached input); note it's pricier than earlier Flash models, so the real win is intelligence-per-latency rather than rock-bottom cost.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
-      "source": "Google",
-      "tags": ["models", "gemini", "agents", "coding"]
+      "id": "2026-06-09-you-dont-know-html-lists",
+      "date": "2026-06-09",
+      "title": "You don't know HTML Lists",
+      "summary": "A surprisingly deep tour of all five HTML list types and when each is semantically right — the gist being that ordered lists are about sequence-that-matters, not numbering, and you've probably been reaching for the wrong one. Nerdy in the best way, and genuinely useful for accessibility.",
+      "url": "https://blog.frankmtaylor.com/2026/05/13/you-dont-know-html-lists/",
+      "source": "Frank M. Taylor",
+      "tags": ["webdev", "html", "craft"]
+    },
+    {
+      "id": "2026-06-09-reality-surprising-amount-of-detail",
+      "date": "2026-06-09",
+      "title": "Reality has a surprising amount of detail",
+      "summary": "A classic essay worth (re)reading: every task — building stairs, boiling water — hides far more meaningful detail than you expect, and those details turn invisible once mastered, quietly stalling your learning. A small idea that changes how you look at any hard problem.",
+      "url": "http://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail",
+      "source": "John Salvatier",
+      "tags": ["curiosity", "essay", "learning"]
     }
   ]
 }
