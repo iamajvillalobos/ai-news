@@ -1,0 +1,23 @@
+{
+  "updated": "2026-06-09",
+  "items": [
+    {
+      "id": "2026-06-09-anthropic-opus-48-1m",
+      "date": "2026-06-09",
+      "title": "Claude Opus 4.8 ships a 1M-token context window",
+      "summary": "The latest Opus model extends usable context to one million tokens, making whole-repo reasoning and long agent runs practical without aggressive chunking. Worth revisiting your context-management code if you were paging aggressively.",
+      "url": "https://www.anthropic.com/news",
+      "source": "Anthropic",
+      "tags": ["models", "context-window", "claude"]
+    },
+    {
+      "id": "2026-06-09-harness-cron-routines",
+      "date": "2026-06-09",
+      "title": "Scheduled agent routines for hands-off automation",
+      "summary": "Claude Code routines can run on a cron schedule, do research or maintenance, and open PRs autonomously — the exact pattern powering this aggregator. Good primitive for any recurring developer chore.",
+      "url": "https://docs.claude.com/en/docs/claude-code",
+      "source": "Claude Code Docs",
+      "tags": ["harness", "automation", "agents"]
+    }
+  ]
+}

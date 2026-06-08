@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Engineering Daily</title>
+  <meta name="description" content="A personal daily digest of AI &amp; harness engineering news worth a developer's time." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📰</text></svg>" />
+  <style>
+    :root {
+      --bg: #fbfbfa;
+      --surface: #ffffff;
+      --text: #1a1a18;
+      --muted: #6b6b66;
+      --faint: #9a9a93;
+      --border: #ebebe7;
+      --accent: #c2410c;
+      --tag-bg: #f2f2ee;
+      --shadow: 0 1px 2px rgba(0,0,0,0.04);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f0f0e;
+        --surface: #181816;
+        --text: #ededea;
+        --muted: #9a9a93;
+        --faint: #6b6b66;
+        --border: #262624;
+        --accent: #fb923c;
+        --tag-bg: #222220;
+        --shadow: none;
+      }
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, system-ui, sans-serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 4rem 1.5rem 6rem;
+    }
+    header {
+      margin-bottom: 3rem;
+    }
+    .kicker {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin: 0 0 0.5rem;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin: 0 0 0.4rem;
+    }
+    .subtitle {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin: 0;
+    }
+    .updated {
+      display: inline-block;
+      margin-top: 1rem;
+      font-size: 0.8rem;
+      color: var(--faint);
+    }
+    .day-group { margin-bottom: 3rem; }
+    .day-label {
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--faint);
+      margin: 0 0 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    article {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.4rem 1.5rem;
+      margin-bottom: 1rem;
+      box-shadow: var(--shadow);
+      transition: border-color 0.15s ease, transform 0.15s ease;
+    }
+    article:hover { border-color: var(--faint); }
+    .item-title {
+      font-size: 1.12rem;
+      font-weight: 650;
+      letter-spacing: -0.01em;
+      margin: 0 0 0.5rem;
+      line-height: 1.4;
+    }
+    .item-title a {
+      color: var(--text);
+      text-decoration: none;
+    }
+    .item-title a:hover { color: var(--accent); }
+    .item-summary {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin: 0 0 0.9rem;
+    }
+    .item-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.78rem;
+    }
+    .source {
+      color: var(--faint);
+      font-weight: 500;
+    }
+    .source::after { content: "·"; margin-left: 0.5rem; color: var(--border); }
+    .tag {
+      background: var(--tag-bg);
+      color: var(--muted);
+      padding: 0.15rem 0.55rem;
+      border-radius: 999px;
+      font-size: 0.72rem;
+      font-weight: 500;
+    }
+    .read {
+      margin-left: auto;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .read:hover { text-decoration: underline; }
+    .read::after { content: " →"; }
+    footer {
+      margin-top: 4rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.8rem;
+      color: var(--faint);
+      text-align: center;
+    }
+    footer a { color: var(--muted); }
+    .state {
+      text-align: center;
+      color: var(--faint);
+      padding: 3rem 0;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <p class="kicker">Personal Digest</p>
+      <h1>AI Engineering Daily</h1>
+      <p class="subtitle">1–5 things in AI &amp; harness engineering worth a developer's time, every day.</p>
+      <span class="updated" id="updated"></span>
+    </header>
+
+    <main id="feed">
+      <p class="state">Loading the latest…</p>
+    </main>
+
+    <footer>
+      Curated by a daily Claude routine · auto-deployed via Vercel ·
+      <a href="https://github.com" id="repo-link">source</a>
+    </footer>
+  </div>
+
+  <script>
+    const fmtDate = (iso) => {
+      const d = new Date(iso + "T00:00:00");
+      return d.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric" });
+    };
+
+    const escapeHtml = (s) => String(s).replace(/[&<>"']/g, (c) =>
+      ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+    async function load() {
+      const feed = document.getElementById("feed");
+      try {
+        const res = await fetch("news.json?_=" + Date.now());
+        if (!res.ok) throw new Error(res.status);
+        const data = await res.json();
+
+        if (data.updated) {
+          document.getElementById("updated").textContent = "Updated " + fmtDate(data.updated);
+        }
+
+        const items = (data.items || []).slice().sort((a, b) => (b.date > a.date ? 1 : b.date < a.date ? -1 : 0));
+        if (!items.length) {
+          feed.innerHTML = '<p class="state">No items yet. The daily routine will fill this in.</p>';
+          return;
+        }
+
+        // group by date
+        const groups = {};
+        for (const it of items) (groups[it.date] ||= []).push(it);
+
+        feed.innerHTML = Object.keys(groups)
+          .sort((a, b) => (b > a ? 1 : -1))
+          .map((date) => `
+            <section class="day-group">
+              <p class="day-label">${escapeHtml(fmtDate(date))}</p>
+              ${groups[date].map(renderItem).join("")}
+            </section>`)
+          .join("");
+      } catch (e) {
+        feed.innerHTML = '<p class="state">Could not load news.json (' + escapeHtml(e.message) + ').</p>';
+      }
+    }
+
+    function renderItem(it) {
+      const tags = (it.tags || []).map((t) => `<span class="tag">${escapeHtml(t)}</span>`).join("");
+      const src = it.source ? `<span class="source">${escapeHtml(it.source)}</span>` : "";
+      const link = it.url
+        ? `<a class="read" href="${escapeHtml(it.url)}" target="_blank" rel="noopener">Read</a>`
+        : "";
+      const titleInner = it.url
+        ? `<a href="${escapeHtml(it.url)}" target="_blank" rel="noopener">${escapeHtml(it.title)}</a>`
+        : escapeHtml(it.title);
+      return `
+        <article>
+          <h2 class="item-title">${titleInner}</h2>
+          ${it.summary ? `<p class="item-summary">${escapeHtml(it.summary)}</p>` : ""}
+          <div class="item-meta">${src}${tags}${link}</div>
+        </article>`;
+    }
+
+    load();
+  </script>
+</body>
+</html>
