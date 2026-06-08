@@ -1,6 +1,42 @@
 {
-  "updated": "2026-06-09",
+  "updated": "2026-06-08",
   "items": [
+    {
+      "id": "2026-06-08-charity-majors-enthusiasts-skeptics",
+      "date": "2026-06-08",
+      "title": "AI enthusiasts are in a race against time, AI skeptics are in a race against entropy",
+      "summary": "Charity Majors argues both sides of the AI productivity debate are right but disconnected — enthusiasts have real, non-imaginary productivity leaps; skeptics are right that shipping code faster than teams can read it quietly depletes reliability and institutional knowledge. The trouble is there's no feedback loop between the two camps. A rare piece that validates both perspectives without being wishy-washy about it.",
+      "url": "https://charity.wtf/2026/06/02/ai-enthusiasts-are-in-a-race-against-time-ai-skeptics-are-in-a-race-against-entropy-xpost/",
+      "source": "Charity Majors",
+      "tags": ["ai", "engineering", "essay"]
+    },
+    {
+      "id": "2026-06-08-goedecke-programming-theory-building",
+      "date": "2026-06-08",
+      "title": "Programming (with AI agents) as theory building",
+      "summary": "Riffs on Peter Naur's 1985 idea that the real output of programming is the programmer's mental model of the system, not the code itself. With AI agents writing more code, engineers build coarser theories — and Goedecke argues that's the tradeoff, and it's fine. Also takes on whether AI can build a \"theory\" of a codebase: pragmatically, if it can correctly answer questions and test hypotheses, the distinction stops mattering.",
+      "url": "https://www.seangoedecke.com/programming-with-ai-agents-as-theory-building/",
+      "source": "Sean Goedecke",
+      "tags": ["ai", "agents", "programming", "essay"]
+    },
+    {
+      "id": "2026-06-08-quanta-memories-worms",
+      "date": "2026-06-08",
+      "title": "Are Memories Transferable — or Edible?",
+      "summary": "In the 1960s, James McConnell trained flatworms to cringe at light, then fed trained-worm paste to untrained worms — which then learned faster, as if they'd eaten the memory. The claim was laughed out of mainstream neuroscience. Now a Harvard lab is revisiting it. Claire L. Evans traces the strange history and the scientists who can't quite let go of the question.",
+      "url": "https://www.quantamagazine.org/are-memories-transferable-or-edible-20260605/",
+      "source": "Claire L. Evans / Quanta Magazine",
+      "tags": ["curiosity", "science", "biology"]
+    },
+    {
+      "id": "2026-06-08-goedecke-staff-engineer-llms-2026",
+      "date": "2026-06-08",
+      "title": "How I use LLMs as a staff engineer in 2026",
+      "summary": "An honest practical update from a GitHub staff engineer on a year's worth of LLM workflow evolution — now producing entire PRs in familiar codebases, throwing every bug at an agent first (it correctly diagnoses ~80%), and running dozens of agent sessions a day. What makes it worth reading is the specificity: not 'LLMs are great,' but exactly where they took over and what that changed about the work.",
+      "url": "https://www.seangoedecke.com/how-i-use-llms-in-2026/",
+      "source": "Sean Goedecke",
+      "tags": ["ai", "engineering", "workflow"]
+    },
     {
       "id": "2026-06-09-brooker-feedback-loop-hypothesis",
       "date": "2026-06-09",
