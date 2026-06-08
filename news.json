@@ -1,4 +1,32 @@
 {
-  "updated": "2026-06-09",
-  "items": []
+  "updated": "2026-06-08",
+  "items": [
+    {
+      "id": "2026-06-08-wwdc-app-intents-sirikit-deprecated",
+      "date": "2026-06-08",
+      "title": "WWDC 2026: Apple deprecates SiriKit, mandates App Intents for Gemini-powered Siri",
+      "summary": "Today's WWDC keynote formally deprecated SiriKit (2–3 year migration window) and made App Intents the only supported framework for Siri integration — now backed by a custom Google Gemini model. iOS/macOS apps using SiriKit for voice actions must migrate. The new Extensions system also lets users and developers route generative tasks to Claude, ChatGPT, or Gemini directly from within Siri, opening a new distribution surface for AI-powered apps.",
+      "url": "https://developer.apple.com/wwdc26/",
+      "source": "Apple Developer",
+      "tags": ["apple", "siri", "ios", "agents", "sdk"]
+    },
+    {
+      "id": "2026-06-08-anthropic-agent-sdk-billing-split",
+      "date": "2026-06-08",
+      "title": "Anthropic splits Agent SDK into a separate credit pool starting June 15",
+      "summary": "Starting June 15, programmatic usage via Claude Agent SDK, claude -p, and Claude Code GitHub Actions will draw from a separate monthly credit pool ($20–$200 depending on plan) rather than your subscription limit. Once exhausted, automated requests stop with no automatic fallback — you must opt in to overflow billing. No rollover and no team pooling, so audit your automated usage now.",
+      "url": "https://thenewstack.io/anthropic-agent-sdk-credits/",
+      "source": "The New Stack",
+      "tags": ["anthropic", "agents", "sdk", "billing", "claude"]
+    },
+    {
+      "id": "2026-06-08-gemini-cli-sunset-june-18",
+      "date": "2026-06-08",
+      "title": "Google Gemini CLI shuts down June 18 — migrate CI/CD pipelines now",
+      "summary": "Google is retiring the open-source Gemini CLI for free, Pro, and Ultra users on June 18, replacing it with the closed-source Antigravity CLI. Any script or CI/CD pipeline calling the gemini command will break on that date. Migration is mostly a binary rename plus swapping GEMINI_API_KEY → AV_API_KEY, but watch for breaking changes: default model is now gemini-3-pro, --stream emits SSE, and exit codes differ on tool-use failures.",
+      "url": "https://www.theregister.com/ai-ml/2026/05/20/bye-bye-gemini-cli-google-nudges-devs-toward-antigravity/",
+      "source": "The Register",
+      "tags": ["google", "gemini", "cli", "tooling", "migration"]
+    }
+  ]
 }
