@@ -1,32 +1,32 @@
 {
-  "updated": "2026-06-08",
+  "updated": "2026-06-09",
   "items": [
     {
-      "id": "2026-06-08-wwdc-app-intents-sirikit-deprecated",
-      "date": "2026-06-08",
-      "title": "WWDC 2026: Apple deprecates SiriKit, mandates App Intents for Gemini-powered Siri",
-      "summary": "Today's WWDC keynote formally deprecated SiriKit (2–3 year migration window) and made App Intents the only supported framework for Siri integration — now backed by a custom Google Gemini model. iOS/macOS apps using SiriKit for voice actions must migrate. The new Extensions system also lets users and developers route generative tasks to Claude, ChatGPT, or Gemini directly from within Siri, opening a new distribution surface for AI-powered apps.",
-      "url": "https://developer.apple.com/wwdc26/",
-      "source": "Apple Developer",
-      "tags": ["apple", "siri", "ios", "agents", "sdk"]
+      "id": "2026-06-02-microsoft-mai-models-foundry",
+      "date": "2026-06-02",
+      "title": "Microsoft ships its own MAI models to cut OpenAI dependence and undercut on price",
+      "summary": "Microsoft unveiled first-party models — MAI-Code-1-Flash (turns written specs into app/website source) and MAI-Thinking-1 (reasoning, private preview) — aimed squarely at reducing its reliance on OpenAI and lowering costs for developers. The real signal isn't the models themselves but the strategy: Microsoft is turning Foundry (now 11,000+ models, including GPT-5.5, Claude Opus 4.8, and Gemini) into a neutral multi-vendor layer where its own cheaper models become the default. If you build on Azure/Foundry, expect MAI defaults and downward price pressure that shifts which model you reach for.",
+      "url": "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html",
+      "source": "CNBC",
+      "tags": ["models", "microsoft", "industry", "foundry"]
     },
     {
-      "id": "2026-06-08-anthropic-agent-sdk-billing-split",
-      "date": "2026-06-08",
-      "title": "Anthropic splits Agent SDK into a separate credit pool starting June 15",
-      "summary": "Starting June 15, programmatic usage via Claude Agent SDK, claude -p, and Claude Code GitHub Actions will draw from a separate monthly credit pool ($20–$200 depending on plan) rather than your subscription limit. Once exhausted, automated requests stop with no automatic fallback — you must opt in to overflow billing. No rollover and no team pooling, so audit your automated usage now.",
-      "url": "https://thenewstack.io/anthropic-agent-sdk-credits/",
-      "source": "The New Stack",
-      "tags": ["anthropic", "agents", "sdk", "billing", "claude"]
+      "id": "2026-06-01-qwen-3-7-plus-cheap-multimodal-agent",
+      "date": "2026-06-01",
+      "title": "Qwen 3.7 Plus: frontier-adjacent multimodal agent at ~6x cheaper input than Max",
+      "summary": "Alibaba brought Qwen 3.7 Plus to GA — a multimodal model (text/image/video in) that perceives screens, operates GUIs, and writes code from visual references, at $0.40/$1.60 per 1M tokens. That's roughly 6x cheaper on input than Qwen 3.7 Max while keeping the 1M-token context window and strong coding/agentic scores, making it one of the cheapest options for vision-to-code and long-horizon agent loops. The tradeoff that matters for engineering decisions: it's proprietary, API-only (no open weights), and China-hosted — so weigh data residency and self-hosting before wiring it into a pipeline.",
+      "url": "https://qwen.ai/blog?id=qwen3.7-plus",
+      "source": "Qwen (Alibaba)",
+      "tags": ["models", "qwen", "multimodal", "agents", "cost"]
     },
     {
-      "id": "2026-06-08-gemini-cli-sunset-june-18",
-      "date": "2026-06-08",
-      "title": "Google Gemini CLI shuts down June 18 — migrate CI/CD pipelines now",
-      "summary": "Google is retiring the open-source Gemini CLI for free, Pro, and Ultra users on June 18, replacing it with the closed-source Antigravity CLI. Any script or CI/CD pipeline calling the gemini command will break on that date. Migration is mostly a binary rename plus swapping GEMINI_API_KEY → AV_API_KEY, but watch for breaking changes: default model is now gemini-3-pro, --stream emits SSE, and exit codes differ on tool-use failures.",
-      "url": "https://www.theregister.com/ai-ml/2026/05/20/bye-bye-gemini-cli-google-nudges-devs-toward-antigravity/",
-      "source": "The Register",
-      "tags": ["google", "gemini", "cli", "tooling", "migration"]
+      "id": "2026-05-19-gemini-3-5-flash-agentic",
+      "date": "2026-05-19",
+      "title": "Gemini 3.5 Flash beats the larger 3.1 Pro on agentic/coding benchmarks at Flash speed",
+      "summary": "Google made Gemini 3.5 Flash generally available at I/O 2026, and the notable part is that a Flash-tier model now outperforms the bigger Gemini 3.1 Pro on hard agentic and coding benchmarks — Terminal-Bench 2.1 (76.2%), MCP Atlas (83.6%) — while running at Flash latencies. That makes a fast model genuinely viable for the inner loop of coding agents and tool-heavy pipelines, not just chat. Pricing is $1.50/$9 per 1M tokens with a 90% cache discount ($0.15/1M cached input); note it's pricier than earlier Flash models, so the real win is intelligence-per-latency rather than rock-bottom cost.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+      "source": "Google",
+      "tags": ["models", "gemini", "agents", "coding"]
     }
   ]
 }
