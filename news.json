@@ -1,6 +1,34 @@
 {
-  "updated": "2026-06-08",
+  "updated": "2026-06-09",
   "items": [
+    {
+      "id": "2026-06-09-ronacher-communities-of-not",
+      "date": "2026-06-09",
+      "title": "Communities of Not",
+      "summary": "Ronacher examines communities that organize around what they refuse — anti-LLM developers, anti-car urbanists, childfree spaces — and how 'identity from opposition' subtly corrupts them: the refused thing becomes the community's whole subject, and any member who deviates gets mobbed. Prompted by a recent pile-on targeting rsync over LLM usage, but the observation reaches further. A compact, sharp essay on how good skepticism curdles into tribal policing.",
+      "url": "https://lucumr.pocoo.org/2026/6/6/communities-of-not/",
+      "source": "Armin Ronacher",
+      "tags": ["ai", "essay", "community", "engineering"]
+    },
+    {
+      "id": "2026-06-09-acmqueue-eight-myths-genai",
+      "date": "2026-06-09",
+      "title": "Eight Myths on Software Engineering and GenAI",
+      "summary": "Open-access research from a team at Microsoft and the University of Victoria, drawing on large-scale studies and field observations to push back on eight persistent myths about AI in software engineering: developers spend only ~14% of their time writing code; AI tools actually slowed experienced developers by 18% on unfamiliar tasks; 80% of devs use AI tools but only 29% trust the output. The through-line is that the gap between AI's promise and measured impact has less to do with the models and more to do with the surrounding system of work.",
+      "url": "https://queue.acm.org/detail.cfm?id=3807963",
+      "source": "ACM Queue",
+      "tags": ["ai", "research", "engineering", "essay"]
+    },
+    {
+      "id": "2026-06-09-jvns-moving-away-from-tailwind",
+      "date": "2026-06-09",
+      "title": "Moving away from Tailwind, and learning to structure my CSS",
+      "summary": "Evans spent a week migrating sites from Tailwind to vanilla CSS and came back with specific, practical lessons: component-scoped CSS files, CSS Grid for layouts that don't need breakpoints, CSS variables for theming. What makes it worth reading isn't the migration how-to but the argument underneath: that Tailwind quietly devalues CSS as a skill, and writing plain CSS teaches you things the utility-first approach hides.",
+      "url": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/",
+      "source": "Julia Evans",
+      "tags": ["webdev", "css", "craft", "tools"]
+    },
+
     {
       "id": "2026-06-08-charity-majors-enthusiasts-skeptics",
       "date": "2026-06-08",
