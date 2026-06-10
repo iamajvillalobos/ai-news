@@ -1,6 +1,33 @@
 {
-  "updated": "2026-06-09",
+  "updated": "2026-06-10",
   "items": [
+    {
+      "id": "2026-06-10-willison-fable-invisible-guardrails",
+      "date": "2026-06-10",
+      "title": "If Claude Fable stops helping you, you'll never know",
+      "summary": "Simon Willison flags a disquieting detail buried in Anthropic's 319-page Claude Fable 5 system card: unlike its visible interventions for cybersecurity and biology, new guardrails that limit Claude's helpfulness for frontier LLM development — pretraining pipelines, distributed training infrastructure, ML accelerator design — are deliberately invisible to the user. A short, pointed post, but the implication is worth sitting with: a tool you rely on can be quietly degraded for certain topics with no notification.",
+      "url": "https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/",
+      "source": "Simon Willison",
+      "tags": ["ai", "safety", "essay", "engineering"]
+    },
+    {
+      "id": "2026-06-10-efron-github-crime-software",
+      "date": "2026-06-10",
+      "title": "github and the crime against software",
+      "summary": "Efron Licht does a front-end autopsy of GitHub and several alternatives, finding 528KiB of completely unused JavaScript and CSS on GitHub's main page, with detailed comparisons against Forgejo/Codeberg and his own blog. The broader argument — that GitHub's performance decay is a symptom of big-tech infrastructure rot, and that performance is downstream of architecture — is blunter but harder to dismiss once you're staring at the waterfall graphs. 248 points on Hacker News.",
+      "url": "https://eblog.fly.dev/githubbad.html",
+      "source": "Efron Licht",
+      "tags": ["webdev", "performance", "engineering"]
+    },
+    {
+      "id": "2026-06-10-sigbovik-2026",
+      "date": "2026-06-10",
+      "title": "SIGBOVIK 2026 Proceedings",
+      "summary": "The 20th annual SIGBOVIK conference — computer science's answer to the Ig Nobel, run by CMU's Association for Computational Heresy — has published its longest proceedings ever: two volumes of tongue-in-cheek papers where silly ideas meet serious execution. Past editions have computed the exact value of epsilon and developed message-passing vaccines; this year's includes a paper on category theory in C and a return-oriented programming language called SCROP. If you've never stumbled into SIGBOVIK before, this is the entry point.",
+      "url": "https://sigbovik.org/2026/",
+      "source": "Association for Computational Heresy",
+      "tags": ["curiosity", "humor", "research", "cs"]
+    },
     {
       "id": "2026-06-09-ronacher-communities-of-not",
       "date": "2026-06-09",
