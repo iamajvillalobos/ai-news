@@ -1,6 +1,33 @@
 {
-  "updated": "2026-06-10",
+  "updated": "2026-06-11",
   "items": [
+    {
+      "id": "2026-06-11-staniks-catlantean-1993-graphics",
+      "date": "2026-06-11",
+      "title": "Catlantean 3D: Making Graphics Like It's 1993",
+      "summary": "Marko Stanić is building a first-person shooter the old-fashioned way — Mode 13h, 320×200 256-color palettes, software rasterization — but with a modern toolchain and Blender for asset creation. This first dev blog covers how he rigs and animates 3D models in Blender, then renders them down to sprites via a Python script to get that authentic early-90s look. A lovely deep-dive into techniques that defined PC gaming, from someone actually shipping a game with them.",
+      "url": "https://staniks.github.io/articles/catlantean-3d-blog-1/",
+      "source": "Marko Stanić",
+      "tags": ["graphics", "curiosity", "craft", "retro", "gamedev"]
+    },
+    {
+      "id": "2026-06-11-skinner-ai-rockstar-developers",
+      "date": "2026-06-11",
+      "title": "Cleaning up after AI rockstar developers",
+      "summary": "The metaphor is on target: every agent is a rockstar developer — writes at furious speed, doesn't care if anyone can read the result, and won't be around tomorrow to explain the decisions. Skinner describes the failure mode vividly: codebases that grow exponentially, become incomprehensible without AI to interpret them, and quietly shift control of your own system to the generator. The practical half — lead the engineering, use AI for small snippets not whole architectures — is worth holding on to.",
+      "url": "https://www.codingwithjesse.com/blog/rockstar-developers/",
+      "source": "Jesse Skinner",
+      "tags": ["ai", "engineering", "craft", "essay"]
+    },
+    {
+      "id": "2026-06-11-matklad-always-be-blaming",
+      "date": "2026-06-11",
+      "title": "Always Be Blaming",
+      "summary": "git blame answers the wrong question — it tells you which commit introduced each line, but what you actually want is the temporal history of a specific snippet. matklad (the rust-analyzer author) describes building an in-place blame workflow that jumps you into the historical commit while keeping LSP fully working, so you can explore the entire codebase as it was at that moment. A small, specific technique that quietly changes how you read unfamiliar code.",
+      "url": "https://matklad.github.io/2026/05/18/always-be-blaming.html",
+      "source": "matklad (Alex Kladov)",
+      "tags": ["programming", "git", "craft", "tools"]
+    },
     {
       "id": "2026-06-10-willison-fable-invisible-guardrails",
       "date": "2026-06-10",
