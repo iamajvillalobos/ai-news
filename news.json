@@ -1,6 +1,42 @@
 {
-  "updated": "2026-06-11",
+  "updated": "2026-06-12",
   "items": [
+    {
+      "id": "2026-06-12-curlewis-lines-of-code-publicist",
+      "date": "2026-06-12",
+      "title": "Lines of Code Got a Better Publicist",
+      "summary": "The industry abandoned lines of code as a productivity metric years ago — it's meaningless and gameable. Curlewis argues that '% of code written by AI' is the same bad metric with a better PR story: it can only go up, it can never fail, and it says nothing about whether anything got better. The contrast with GitHub Copilot's earlier '55% faster' claim — which was at least falsifiable — is pointed and hard to argue with.",
+      "url": "https://curlewis.co.nz/posts/lines-of-code-got-a-better-publicist/",
+      "source": "David Curlewis",
+      "tags": ["ai", "engineering", "essay", "metrics"]
+    },
+    {
+      "id": "2026-06-12-tombedor-human-attention",
+      "date": "2026-06-12",
+      "title": "If you are asking for human attention, demonstrate human effort",
+      "summary": "A teammate sent Bedor an AI-generated design critique with a disclaimer they hadn't read it themselves. That single anecdote launches a short, sharp argument: when you send something for review, demonstrating human effort — reading the output, annotating it, taking a position — isn't optional politeness, it's the social contract. More pointed in 2026 than it would have been two years ago.",
+      "url": "https://tombedor.dev/human-attention-and-human-effort/",
+      "source": "Tom Bedor",
+      "tags": ["ai", "engineering", "craft", "essay"]
+    },
+    {
+      "id": "2026-06-11-mohkohn-html-first",
+      "date": "2026-06-11",
+      "title": "How building an HTML-first site doubled our users overnight",
+      "summary": "A utility company had a React form that kept getting pulled after a few days of complaints. The replacement was an HTML-first multi-step wizard where each step submits and redirects — and completions doubled immediately on launch. The killer detail: the JavaScript-based analytics had been silently hiding the scale of the failures the whole time, because users bouncing before JS loaded never appeared in the data. A short, concrete story with a great reveal.",
+      "url": "https://mohkohn.co.uk/writing/html-first/",
+      "source": "mohkohn",
+      "tags": ["webdev", "engineering", "craft", "performance"]
+    },
+    {
+      "id": "2026-05-28-richardson-thermo-fisher-antibody",
+      "date": "2026-05-28",
+      "title": "How much of Thermo Fisher's antibody data has been manipulated?",
+      "summary": "Careful, methodical sleuthing: Richardson and a collaborator documented more than 450 images in Thermo Fisher's antibody catalog bearing clear signs of Photoshop manipulation — brushstrokes revealed by contrast adjustment, copy-pasted background noise. Thermo Fisher is one of the largest suppliers of research reagents in the world; how bad the downstream science is from faked validation data is uncomfortable to think about. The kind of patient investigative work that actually matters.",
+      "url": "https://reeserichardson.blog/2026/05/28/how-much-of-thermo-fishers-antibody-data-has-been-manipulated/",
+      "source": "Reese Richardson",
+      "tags": ["curiosity", "science", "research", "integrity"]
+    },
     {
       "id": "2026-06-11-staniks-catlantean-1993-graphics",
       "date": "2026-06-11",
