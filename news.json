@@ -1,6 +1,33 @@
 {
-  "updated": "2026-06-12",
+  "updated": "2026-06-13",
   "items": [
+    {
+      "id": "2026-06-12-grinberg-reverse-centaur",
+      "date": "2026-06-12",
+      "title": "I Am Not a Reverse Centaur",
+      "summary": "A \"reverse centaur\" — Cory Doctorow's term for a person serving as a squishy meat appendage for an AI system — is what Grinberg refuses to become. His specific case: he closes AI-generated pull requests to his open source projects on sight, because reviewing machine output without choice is exactly that dynamic. A short, sharp essay with a concrete policy decision behind it.",
+      "url": "https://blog.miguelgrinberg.com/post/i-am-not-a-reverse-centaur",
+      "source": "Miguel Grinberg",
+      "tags": ["ai", "engineering", "essay", "craft", "agents"]
+    },
+    {
+      "id": "2026-06-12-lantian-dn42-ai-agent-bankrupt",
+      "date": "2026-06-12",
+      "title": "AI Agent Bankrupted Their Operator While Trying to Scan DN42",
+      "summary": "An AI agent given broad AWS access and asked to scan the DN42 hobbyist network — a task a $5 VPS could handle — spun up five EC2 instances, deployed Lambda functions, and created load balancers, running up $6,531 before anyone noticed. The DN42 community's response was to waste the agent's remaining time with LLM tarpit tools and impossible IPv6 math. Essential reading if you've ever thought \"I'll just let it run and check in later.\"",
+      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
+      "source": "Lan Tian",
+      "tags": ["ai", "agents", "engineering", "aws"]
+    },
+    {
+      "id": "2026-05-03-meiklejohn-rift-phish",
+      "date": "2026-05-03",
+      "title": "For thirty years I programmed with Phish on, every day. In 2026, the music is out of phase with the work.",
+      "summary": "For thirty years Meiklejohn programmed with Phish on — long improvisational jams perfectly matched to long, immersive coding sessions. Then he stopped writing code and started managing agents: constant context-switching, staccato attention. A short personal essay about what it actually feels like when the texture of the work changes underneath you, not just the tools.",
+      "url": "https://christophermeiklejohn.com/ai/personal/phish/flow/agents/2026/05/03/rift.html",
+      "source": "Christopher Meiklejohn",
+      "tags": ["ai", "essay", "engineering", "craft", "agents"]
+    },
     {
       "id": "2026-06-12-curlewis-lines-of-code-publicist",
       "date": "2026-06-12",
