@@ -1,6 +1,42 @@
 {
-  "updated": "2026-06-13",
+  "updated": "2026-06-14",
   "items": [
+    {
+      "id": "2026-06-13-mnot-feed-survey",
+      "date": "2026-06-13",
+      "title": "Web Feeds in 2026: A Survey",
+      "summary": "Mark Nottingham (IETF HTTP chair) scraped the top 500k websites and found 534,195 parseable RSS/Atom feeds — 35.9% of those sites expose feed autodiscovery, which is a surprisingly large number. The killer finding: only 22.6% scored above 0.5 on a quality metric measuring recency and content, and 38.1% had any freshness signal in the past year. The open web's feed ecosystem is still alive, but largely unmaintained. A useful empirical snapshot for anyone who still believes in the indie web.",
+      "url": "https://mnot.net/blog/2026/feed-survey",
+      "source": "Mark Nottingham",
+      "tags": ["rss", "open-web", "curiosity", "tools"]
+    },
+    {
+      "id": "2026-06-12-postgres-19-temporal-tables",
+      "date": "2026-06-12",
+      "title": "Looking Forward to Postgres 19: It's About Time",
+      "summary": "SQL:2011 standardized temporal tables over a decade ago. SQL Server, MariaDB, and Oracle implemented them. Postgres finally arrives in v19 with native support: WITHOUT OVERLAPS constraints, FOR PORTION OF for time-scoped updates and deletes, and temporal foreign keys. Shaun Thomas walks through each feature with clear examples and is honest about what's still missing. Worth reading if you've ever reached for a valid_from/valid_to pair in a schema and wished the database enforced the invariants for you.",
+      "url": "https://www.pgedge.com/blog/looking-forward-to-postgres-19-its-about-time",
+      "source": "Shaun Thomas / pgEdge",
+      "tags": ["postgres", "databases", "sql", "engineering"]
+    },
+    {
+      "id": "2026-06-01-quanta-dirt-refused-die",
+      "date": "2026-06-01",
+      "title": "The Dirt That Refused To Die",
+      "summary": "A team sterilized soil with gamma radiation, sealed it in jars, and watched it keep breathing — taking in oxygen, giving off CO2 — for six years, with no living cell remaining. The researchers argue they are watching metabolism without life: the Krebs cycle reactions ticking over in dead dirt, possibly the way they did before the first cell ever existed. It's the most unsettling jar of dirt you'll read about this week, and it points to a new origin-of-life hypothesis built from soil chemistry.",
+      "url": "https://www.quantamagazine.org/the-dirt-that-refused-to-die-20260601/",
+      "source": "Quanta Magazine",
+      "tags": ["curiosity", "science", "biology", "origins-of-life"]
+    },
+    {
+      "id": "2026-02-17-mckinney-mythical-agent-month",
+      "date": "2026-02-17",
+      "title": "The Mythical Agent-Month",
+      "summary": "McKinney riffs on Brooks's Mythical Man-Month to argue that the agentic era hasn't removed the hardest part of software development — it's moved it. The thesis: \"When code is free, saying no is our last defense.\" With agents writing freely, the real bottleneck becomes scope discipline, design judgment, and taste. The developers who thrive won't be those who run the most parallel sessions, but those who hold a project's conceptual model clearly and know what to cut. An evergreen argument that only gets sharper as the tooling improves.",
+      "url": "https://wesmckinney.com/blog/mythical-agent-month/",
+      "source": "Wes McKinney",
+      "tags": ["ai", "agents", "engineering", "essay"]
+    },
     {
       "id": "2026-06-12-grinberg-reverse-centaur",
       "date": "2026-06-12",
