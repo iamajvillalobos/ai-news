@@ -1,6 +1,42 @@
 {
-  "updated": "2026-06-14",
+  "updated": "2026-06-15",
   "items": [
+    {
+      "id": "2026-06-15-andreklein-epub-kobo-adobe",
+      "date": "2026-06-15",
+      "title": "Your ePub Is Fine. Kobo Disagrees. Blame Adobe.",
+      "summary": "André Klein traces a frustrating bug: a perfectly valid ePub with perfectly valid CSS gets flagged as \"corrupted\" on Kobo devices. The culprit is Adobe's RMSDK, which Kobo uses for rendering — almost certainly because of DRM. The twist: Kobo actually ships with a better, actively maintained renderer, but only uses it for files with a specific extension. The kind of specific, well-researched debugging story where the real villain is a dependency nobody chose.",
+      "url": "https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe/",
+      "source": "André Klein",
+      "tags": ["craft", "debugging", "tools", "curiosity"]
+    },
+    {
+      "id": "2026-06-13-tonsky-every-frame-perfect",
+      "date": "2026-06-13",
+      "title": "Every Frame Perfect",
+      "summary": "Nikita Prokopov takes Wayland's stated goal — \"every frame is perfect\" — and applies it to UI design broadly. His case: animations that pass through broken intermediate states (a cursor starting from the wrong position, a crop border animating while the photo snaps) erode user trust in a way that's hard to name but impossible to ignore. A sharp visual essay on why precision in UI isn't pedantry — it's the only part of your code the user ever actually sees.",
+      "url": "https://tonsky.me/blog/every-frame-perfect/",
+      "source": "Nikita Prokopov (tonsky)",
+      "tags": ["ui", "craft", "performance", "essay"]
+    },
+    {
+      "id": "2026-06-13-desfontaines-banning-noise",
+      "date": "2026-06-13",
+      "title": "Banning noise will be a disaster for statistical data products",
+      "summary": "The US Department of Commerce ordered the Census Bureau to stop using noise infusion — the differential privacy technique that protects individual respondents in published statistics. Damien Desfontaines (a differential privacy researcher at Tumult) explains what this actually forces: the Census must now choose between leaking individual records or publishing data too coarse to be useful. A clear, accessible technical explainer on a quiet policy decision with real downstream consequences for anyone who builds on public data.",
+      "url": "https://desfontain.es/blog/banning-noise.html",
+      "source": "Damien Desfontaines",
+      "tags": ["privacy", "statistics", "data", "curiosity"]
+    },
+    {
+      "id": "2026-05-06-garrit-dont-trust-large-context-windows",
+      "date": "2026-05-06",
+      "title": "Don't trust large context windows",
+      "summary": "A useful reality check on advertised model context sizes. Garrit Franke's core observation: every model has a \"smart zone\" (roughly the first 100k tokens, where attention is sharp) and a \"dumb zone\" (everything past that, where it quietly degrades). The advertised window — 200k, 1M, 2M — doesn't reflect the usable working set. For coding agents in particular, which burn tokens fast on file reads and debug sessions, this isn't a theoretical concern. Worth internalizing before you assume that a 1M context window means a 1M context budget.",
+      "url": "https://garrit.xyz/posts/2026-05-06-dont-trust-large-context-windows",
+      "source": "Garrit Franke",
+      "tags": ["ai", "engineering", "llm", "agents"]
+    },
     {
       "id": "2026-06-13-mnot-feed-survey",
       "date": "2026-06-13",
