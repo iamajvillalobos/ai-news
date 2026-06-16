@@ -1,6 +1,33 @@
 {
-  "updated": "2026-06-15",
+  "updated": "2026-06-16",
   "items": [
+    {
+      "id": "2026-06-14-paulgraham-earn-billion",
+      "date": "2026-06-14",
+      "title": "How to Earn a Billion Dollars",
+      "summary": "Paul Graham's response to the political claim that no one earns a billion dollars without doing something wrong. His counter is mathematical: a billion dollars is the product of two variables — growth rate and how long that growth can be sustained. If you build something people want and are willing to recommend, in a large enough market, the wealth follows as arithmetic, not moral exception. Classic Graham: takes a premise the political class treats as obvious, unpacks the mechanism, and leaves you either persuaded or arguing.",
+      "url": "https://paulgraham.com/earn.html",
+      "source": "Paul Graham",
+      "tags": ["essay", "startups", "curiosity"]
+    },
+    {
+      "id": "2026-06-14-imankulov-linkedin-backdoor",
+      "date": "2026-06-14",
+      "title": "A Backdoor in a LinkedIn Job Offer",
+      "summary": "Roman Imankulov received a LinkedIn message offering a $600-800k freelance engagement to evaluate a codebase. The repo was a trojanized Node.js application — the real payload lived in an npm `prepare` script, which runs automatically on `npm install`. The instruction to \"check out the deprecated Node modules issue\" was bait. Commits were authored under a real developer's name and email (who had been impersonated on GitHub before without knowing it). The kind of story that changes how you think about cloning repos from strangers.",
+      "url": "https://roman.pt/posts/linkedin-backdoor/",
+      "source": "Roman Imankulov",
+      "tags": ["security", "engineering", "supply-chain"]
+    },
+    {
+      "id": "2026-06-15-mrmarket-nerds",
+      "date": "2026-06-15",
+      "title": "What the Fuck Happened to Nerds",
+      "summary": "The tech industry spent forty years building trust on the back of a recognizable personality type — curious, domain-obsessed, genuinely humble about what they didn't know. That trust turned out to be convertible to attention at a great exchange rate, and the personality type has been shifting ever since. The author uses the Founders Fund Mafia Game video — slickly produced, celebrity-founder cast, deception-as-entertainment — as a crystallizing example of what phase three looks like. A sharp cultural essay on a transformation that's hard to name while it's happening.",
+      "url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds/",
+      "source": "Mr. Market",
+      "tags": ["essay", "culture", "tech", "curiosity"]
+    },
     {
       "id": "2026-06-15-andreklein-epub-kobo-adobe",
       "date": "2026-06-15",
