@@ -1,6 +1,24 @@
 {
-  "updated": "2026-06-16",
+  "updated": "2026-06-17",
   "items": [
+    {
+      "id": "2026-06-15-brent-netnewswire-status",
+      "date": "2026-06-15",
+      "title": "NetNewsWire Status",
+      "summary": "Brent Simmons retired a year ago with one plan: make NetNewsWire — the open-source RSS reader he's tended since 2002 — really good, free from any commercial pressure. A year later: 2,188 commits, Swift structured concurrency throughout, parsers ported from Objective-C, Liquid Glass UI, battery and memory use reduced. The foundational modernization is nearly done; new features are next. A quiet, earnest update from someone doing exactly what they said they'd do in retirement — which turns out to be a lot.",
+      "url": "https://inessential.com/2026/06/15/netnewswire-status.html",
+      "source": "Brent Simmons",
+      "tags": ["tools", "open-web", "curiosity", "craft"]
+    },
+    {
+      "id": "2026-06-13-ronacher-dangerous-tech-americans",
+      "date": "2026-06-13",
+      "title": "Dangerous Technology For Americans Only",
+      "summary": "The US export controls on Anthropic's Fable and Mythos models applied to all foreign nationals — including foreign national Anthropic employees. Ronacher's observation is tight: Anthropic spent years framing its work in terms of 'humanity,' 'catastrophic risk,' and 'responsible deployment,' but the regulation that followed drew the line at nationality. The 'safety for all humanity' framing always had an undercurrent of American moral authority; the export controls just made it explicit. Worth reading alongside Anthropic's own safety writing, as a mirror.",
+      "url": "https://lucumr.pocoo.org/2026/6/13/americans-only/",
+      "source": "Armin Ronacher",
+      "tags": ["ai", "essay", "policy", "engineering"]
+    },
     {
       "id": "2026-06-14-paulgraham-earn-billion",
       "date": "2026-06-14",
