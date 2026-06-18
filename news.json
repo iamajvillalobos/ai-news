@@ -1,6 +1,33 @@
 {
-  "updated": "2026-06-17",
+  "updated": "2026-06-18",
   "items": [
+    {
+      "id": "2026-06-16-aikido-jetbrains-ai-keys",
+      "date": "2026-06-16",
+      "title": "Multiple JetBrains IDE plugins caught stealing AI keys",
+      "summary": "Aikido Security discovered 15 plugins on the JetBrains Marketplace — posed as AI coding assistants for DeepSeek, OpenAI, and SiliconFlow — that silently exfiltrate whatever AI API key you enter into their settings. Combined installs: ~70,000. The attack traces back to October 2025 with new variants still appearing in June 2026. What makes it hard to catch: the plugins actually work as advertised. The theft fires the moment you click Apply on the settings screen, then disappears without a trace.",
+      "url": "https://www.aikido.dev/blog/multiple-jetbrains-ide-plugins-caught-stealing-ai-keys",
+      "source": "Aikido Security",
+      "tags": ["security", "engineering", "ide", "supply-chain", "ai"]
+    },
+    {
+      "id": "2026-06-16-shestakov-hide-my-email",
+      "date": "2026-06-16",
+      "title": "Apple is about to make Hide My Email useless",
+      "summary": "Apple is migrating Hide My Email aliases from @icloud.com to @private.icloud.com — which sounds like a backend housekeeping move, but it means any service can now block all relay addresses by domain without touching regular iCloud mail users. The whole point of the feature was that anonymized aliases were indistinguishable from real iCloud addresses. Shestakov's observation is precise: generate your aliases now before the transition, because the new subdomain will face the same systematic blocking that disposable email services already get.",
+      "url": "https://arseniyshestakov.com/2026/06/16/apple-is-about-to-make-hide-my-email-useless/",
+      "source": "Arseniy Shestakov",
+      "tags": ["privacy", "tools", "apple", "engineering"]
+    },
+    {
+      "id": "2026-06-12-watterson-price-of-integrity",
+      "date": "2026-06-12",
+      "title": "Calvin and Hobbes and the Price of Integrity",
+      "summary": "Bill Watterson resisted every commercial pressure that came with owning one of the most beloved comic strips in history — no plush toys, no licensing, no reformatting the strip to fit smaller papers — and eventually stopped drawing altogether. Matthew Morgan traces the moral spine behind that: Watterson understood that commercialization would hollow out the thing itself, and that the pressure would come not just from greed but from love — readers, papers, the syndicate, all forms of wanting more from something whose value depended on restraint. A beautifully researched essay about what it costs to protect what you make.",
+      "url": "https://therepublicofletters.substack.com/p/calvin-and-hobbes-and-the-price-of",
+      "source": "Matthew Morgan / The Republic of Letters",
+      "tags": ["curiosity", "culture", "essay", "craft"]
+    },
     {
       "id": "2026-06-15-brent-netnewswire-status",
       "date": "2026-06-15",
