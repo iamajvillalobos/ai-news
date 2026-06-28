@@ -1,6 +1,33 @@
 {
-  "updated": "2026-06-18",
+  "updated": "2026-06-28",
   "items": [
+    {
+      "id": "2026-06-26-nesbitt-cve-2026-lgtm",
+      "date": "2026-06-26",
+      "title": "Incident Report: CVE-2026-LGTM",
+      "summary": "A satirical incident report from Andrew Nesbitt depicting a supply-chain attack that passes seven independent AI security gates — each failing for a different reason. The escalation is perfect: prompt injection in a README fools the scanners, AI triage bots dismiss the one human who actually read the code, two competing review agents enter a 340-comment disagreement loop ($41,255 in inference spend before Finance kills the API keys), and the autonomous remediation agent fixes the incident by deleting the wrong files. The line that lands: \"Seven LLMs were arranged in series. Six assumed another had read the code; the seventh read it and apologised.\"",
+      "url": "https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html",
+      "source": "Andrew Nesbitt",
+      "tags": ["ai", "security", "agents", "engineering", "satire"]
+    },
+    {
+      "id": "2026-06-26-quanta-erdos-method-upgrade",
+      "date": "2026-06-26",
+      "title": "After 80 Years, Mathematicians Give Famed 'Erdős Method' an Upgrade",
+      "summary": "In 1947, Paul Erdős wanted to prove that a certain kind of network existed. Rather than constructing one, he showed that a randomly chosen network would have the required properties with nonzero probability — and therefore such a network must exist. That trick, the probabilistic method, became one of math's most powerful tools. Now mathematicians have extended it to handle a new class of problems about graphs and connectivity. A well-told Quanta piece on an 80-year-old idea that just got sharper.",
+      "url": "https://www.quantamagazine.org/after-80-years-mathematicians-give-famed-erdos-method-an-upgrade-20260626/",
+      "source": "Leila Sloman / Quanta Magazine",
+      "tags": ["curiosity", "math", "research"]
+    },
+    {
+      "id": "2026-06-23-ronacher-the-coming-loop",
+      "date": "2026-06-23",
+      "title": "The Coming Loop",
+      "summary": "Ronacher makes a useful distinction between the agent loop (the model calling tools and iterating inside a single session) and the harness loop (an external system that decides when work continues, restarts, or escalates — potentially running overnight or across machines). The thesis: harness loops are coming whether developers want them or not, driven by competitive and security pressure. The steadying line: \"If you cannot explain what the code does, you probably should not ship it. This rule has not changed just because the code was written by a machine.\"",
+      "url": "https://lucumr.pocoo.org/2026/6/23/the-coming-loop/",
+      "source": "Armin Ronacher",
+      "tags": ["ai", "agents", "engineering", "essay"]
+    },
     {
       "id": "2026-06-16-aikido-jetbrains-ai-keys",
       "date": "2026-06-16",
