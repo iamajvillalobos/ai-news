@@ -1,6 +1,33 @@
 {
-  "updated": "2026-06-28",
+  "updated": "2026-06-29",
   "items": [
+    {
+      "id": "2026-06-29-watboy-jit-gameboy-wasm",
+      "date": "2026-06-29",
+      "title": "WATaBoy: JIT-Ing Game Boy Instructions to WASM Beats a Native Interpreter",
+      "summary": "A final-year undergraduate project that builds a Game Boy emulator two ways: first as a pure interpreter, then as a JIT compiler that recompiles SM83 instructions to WebAssembly basic blocks. The surprising finding: the JIT-to-Wasm approach clearly beats the native interpreter — and as a bonus, it opens up JIT on iOS, where Apple prohibits native JIT but Wasm is permitted. Tested on Pokémon Blue, Link's Awakening, and Tobu Tobu Girl; honest about where PPU interrupts still cause fallback. The section on Wasm codegen and late-linking from Rust is the sleeper payoff.",
+      "url": "https://humphri.es/blog/WATaBoy/",
+      "source": "humphri.es",
+      "tags": ["curiosity", "wasm", "craft", "programming", "retro"]
+    },
+    {
+      "id": "2026-06-28-antoine-mri-opus-second-opinion",
+      "date": "2026-06-28",
+      "title": "Using Opus 4.8 to get a second opinion on my MRI and where it leaves me",
+      "summary": "A software developer gets a shoulder MRI and runs the results through Opus 4.8 to see how it reads against the radiologist's report. The honest framing is in the title: 'where it leaves me' — not a victory lap for AI diagnostics, but a specific, considered account of what the model got right, where it hedged, and what thinking alongside it actually feels like. Useful for calibrating intuitions about AI-as-second-opinion in a domain where the stakes matter.",
+      "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+      "source": "Antoine (antoine.fi)",
+      "tags": ["ai", "essay", "curiosity", "llm"]
+    },
+    {
+      "id": "2026-05-31-apenwarr-annealing-wrong",
+      "date": "2026-05-31",
+      "title": "The software industry: annealing, but wrong",
+      "summary": "Pennarun uses simulated annealing as a lens on how software development should work: start hot (big exploratory changes, high risk tolerance), then cool slowly as the design firms up (smaller, more careful changes). The critique of AI-assisted development follows precisely: LLMs produce interconnected changes at whatever temperature you happen to be at, regardless of whether you're in exploration mode or stabilization mode. The result is codebases that never cool — a different kind of fragility than the ones people usually worry about, and one this metaphor names better than most.",
+      "url": "https://apenwarr.ca/log/20260531",
+      "source": "Avery Pennarun (apenwarr)",
+      "tags": ["ai", "engineering", "essay", "craft"]
+    },
     {
       "id": "2026-06-26-nesbitt-cve-2026-lgtm",
       "date": "2026-06-26",
