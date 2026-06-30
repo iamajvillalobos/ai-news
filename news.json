@@ -1,6 +1,33 @@
 {
-  "updated": "2026-06-29",
+  "updated": "2026-06-30",
   "items": [
+    {
+      "id": "2026-06-19-brooker-alice-inspection-paradox",
+      "date": "2026-06-19",
+      "title": "Meet Alice. Alice is impatient.",
+      "summary": "The inspection paradox says a customer arriving at a random moment doesn't experience the mean of your response-time distribution — they experience the size-biased mean: E[X²] / (2·E[X]), which equals mean plus variance divided by twice the mean. Brooker builds the math out clearly and wraps it in an interactive simulation where you can plug in your own p50 and p99 to see the gap between what your SLA dashboard reports and what users actually feel. A specific, useful insight for anyone who thinks seriously about latency.",
+      "url": "https://brooker.co.za/blog/2026/06/19/waiting.html",
+      "source": "Marc Brooker",
+      "tags": ["engineering", "distributed-systems", "performance", "math"]
+    },
+    {
+      "id": "2026-05-12-leifer-redis-ambition",
+      "date": "2026-05-12",
+      "title": "Redis and the Cost of Ambition",
+      "summary": "A specific, honest critique of Redis' drift from a tight set of reliable primitives toward being \"The Real-Time Context Engine for AI Apps.\" Charles Leifer (author of peewee, serial SQLite wizard) identifies ambition — of developers and of corporate owners — as the force that made Redis stop being Redis. The concrete conclusion: Valkey's rapid adoption is the market's verdict, rewarding a project that spent its time on multi-threaded performance and memory efficiency instead of feature-chasing.",
+      "url": "https://charlesleifer.com/blog/redis-and-the-cost-of-ambition/",
+      "source": "Charles Leifer",
+      "tags": ["engineering", "databases", "open-source", "essay"]
+    },
+    {
+      "id": "2026-06-04-matklad-css-bad-parts",
+      "date": "2026-06-04",
+      "title": "CSS: Unavoidable Bad Parts",
+      "summary": "matklad (the rust-analyzer author) wrote an \"ersatz CSS tutorial for people who need to style a web page, but aren't web developers\" — meaning: here's what's genuinely hard about CSS, no apology, no workaround, just the real shape of the thing. The framing cuts through the usual CSS discourse (it's great / it's terrible / use Tailwind) to offer something rarer: a careful practitioner from outside web development making honest sense of a tool on its own terms.",
+      "url": "https://matklad.github.io/2026/06/04/css-unavoidable-bad-parts.html",
+      "source": "matklad (Alex Kladov)",
+      "tags": ["css", "webdev", "craft", "programming"]
+    },
     {
       "id": "2026-06-29-watboy-jit-gameboy-wasm",
       "date": "2026-06-29",
