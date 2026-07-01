@@ -1,6 +1,42 @@
 {
-  "updated": "2026-06-30",
+  "updated": "2026-07-01",
   "items": [
+    {
+      "id": "2026-06-12-quanta-earth-homegrown-oceans",
+      "date": "2026-06-12",
+      "title": "Where Did Earth Get Its Oceans? Maybe It Made Them Itself.",
+      "summary": "Scientists told us Earth's water came from comets, then from asteroids. Both theories got shaky. The current hypothesis: rocky planets might make their own water through magma chemistry — hydrogen dissolved in early mantle rock combining with oxygen as the planet cools. The forensic tool is the deuterium-to-hydrogen ratio, and recent comet measurements from 12P/Pons-Brooks complicated the picture further. Robin George Andrews's piece is a well-paced guide to a question we thought was settled turning out not to be.",
+      "url": "https://www.quantamagazine.org/where-did-earth-get-its-oceans-maybe-it-made-them-itself-20260612/",
+      "source": "Robin George Andrews / Quanta Magazine",
+      "tags": ["curiosity", "science", "geology", "origins-of-life"]
+    },
+    {
+      "id": "2026-06-10-ronacher-gaslighting-openness",
+      "date": "2026-06-10",
+      "title": "Gaslighting Openness",
+      "summary": "Ronacher argues open source is losing a narrative war, not just an engineering one. AI slop has turned issue trackers into denial-of-service attacks — cURL's valid bug reports fell from 15% to 5% year-over-year while AI-generated ones rose from 2% to 20%, and GitHub's 2026 open source report called it \"a denial-of-service attack on human attention.\" But the more insidious pressure is how big companies have learned to frame closing access as a safety measure. The phrase \"control is safety, openness is danger\" is doing a lot of work in 2026, and Ronacher names it precisely.",
+      "url": "https://lucumr.pocoo.org/2026/6/10/gaslighting/",
+      "source": "Armin Ronacher",
+      "tags": ["ai", "open-source", "engineering", "essay"]
+    },
+    {
+      "id": "2026-05-20-goedecke-prompts-technical-debt",
+      "date": "2026-05-20",
+      "title": "Prompts are technical debt too",
+      "summary": "The CLAUDE.md files, AGENTS.md docs, and system prompts spreading across codebases are technical debt — but a worse variety than regular code debt because they decay silently. A prompt carefully tuned for one model version can quietly underperform on the next with no error thrown, no compile failure, nothing. Goedecke's practical advice: write prompts yourself (don't let models generate them unreviewed), keep them short, and delete them whenever you can. The observation that prompt complexity compounds across tool chains is the sharpest part.",
+      "url": "https://www.seangoedecke.com/prompts-are-technical-debt-too/",
+      "source": "Sean Goedecke",
+      "tags": ["ai", "engineering", "llm", "craft", "agents"]
+    },
+    {
+      "id": "2026-05-12-matklad-software-architecture",
+      "date": "2026-05-12",
+      "title": "Learning Software Architecture",
+      "summary": "Matklad's response to a physics researcher asking how to learn software design: formal architecture education is \"make-believe, kindergarteners playing fire-fighters.\" Real learning happens when you're thrown into a legacy codebase with responsibility. Two practical gifts: ARCHITECTURE.md (a short doc that cuts orientation time for new contributors by roughly 5x — figuring out where to change the code takes 10x longer than making the change) and an unsentimental reading of Conway's Law — organizations ship approximations of their org chart, and the fastest path to better architecture is often a personnel change, not a refactor. One of the few honest accounts of how architectural skill actually accumulates. 500+ points on Hacker News.",
+      "url": "https://matklad.github.io/2026/05/12/software-architecture.html",
+      "source": "matklad (Alex Kladov)",
+      "tags": ["engineering", "architecture", "craft", "essay", "programming"]
+    },
     {
       "id": "2026-06-19-brooker-alice-inspection-paradox",
       "date": "2026-06-19",
